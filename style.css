@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    background-color:blueviolet;
+    color:aqua;
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin: 0.5rem;
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+    min-width: 15rem;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.img-div {
+    flex: 1;
+    margin: 1rem;
+}
+
+.centered-flex-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
