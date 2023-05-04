@@ -8,3 +8,6 @@ header {
     justify-content: space-around;
 }
 
+footer {
+    grid-template-columns: 1fr;
+}

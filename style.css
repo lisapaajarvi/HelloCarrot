@@ -19,6 +19,16 @@ header {
     padding: 2rem;
 }
 
+footer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 2rem;
+}
+
+footer div {
+    padding: 1rem;
+}
+
 ul {
     display: flex;
 }
@@ -65,5 +75,6 @@ img {
     transform: translate(-50%, -50%);
     color: antiquewhite;
     text-shadow: 2px 2px 2px black;
-    font-size: 3rem;
+    font-size: 5rem;
 }
+
